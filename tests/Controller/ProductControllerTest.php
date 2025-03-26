@@ -60,7 +60,7 @@ class ProductControllerTest extends WebTestCase
 
         // Expected error message
         $expectedError = [
-            'error' => 'Product not found'
+            'message' => 'Product not found'
         ];
 
         // Assert that the returned error message matches the expected message
