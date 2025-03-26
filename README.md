@@ -32,11 +32,14 @@ Follow these steps to set up and run the project:
 
 ### Get Product by ID
 
-- **Endpoint:** `GET /api/products/{id}`  
-- **Example Request:**  
+- **Endpoint:** `GET /api/products/{id}`
+- **Example Request using CURL:**  
   ```sh
   curl -X GET http://127.0.0.1:8000/api/products/1
   ```
+- **Alternatively, open the following URL in your browser to see the response:**  
+  [http://127.0.0.1:8000/api/products/1](http://127.0.0.1:8000/api/products/1)
+
 - **Success Response:**  
   ```json
   {
