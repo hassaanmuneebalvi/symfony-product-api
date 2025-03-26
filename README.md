@@ -6,12 +6,14 @@ This is a simple Symfony-based API for retrieving product details.
 
 Follow these steps to set up and run the project:
 
-1. **Unzip the Project**  
-   Extract the project folder from the provided ZIP file.
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/hassaanmuneebalvi/symfony-product-api.git
+   ```
 
 2. **Navigate to the Project Directory**  
    ```sh
-   cd your_project_folder
+   cd symfony-product-api
    ```
 
 3. **Install Dependencies**  
@@ -47,7 +49,7 @@ Follow these steps to set up and run the project:
 - **Error Response (if product not found):**  
   ```json
   {
-      "error": "Product not found"
+      "message": "Product not found"
   }
   ```
 
