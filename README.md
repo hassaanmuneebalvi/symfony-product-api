@@ -66,12 +66,6 @@ php bin/phpunit
 
 This will test the API responses for valid and invalid product requests.
 
-## Folder Placement
-
-- Place the controller file inside `src/Controller/ProductController.php`.
-- Place the test file inside `tests/Controller/ProductControllerTest.php`.
-- Ensure `config/routes/annotations.yaml` is set up correctly.
-
 ## Notes
 
 - This project uses in-memory product data (no database required).
